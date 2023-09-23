@@ -1,0 +1,127 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: lavender;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #6b5b95;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.brand {
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+}
+
+.nav-buttons {
+    margin-right: 20px;
+}
+
+.nav-buttons a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu-toggle {
+    display: none;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Homepage Content Styles */
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, p {
+    text-align: center;
+}
+
+/* Buttons Styles */
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button {
+    background-color: #6b5b95;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 3%;
+    height: 5rem;
+    width:20rem ;
+}
+
+/* Contact Us Styles */
+.contact {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 10px;
+    color: #6b5b95;
+}
+
+.contact-icons {
+    margin-top: 3%;
+    height: 3rem;
+}
+
+.contact-icons a {
+    margin: 0 10px;
+}
+p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #6b5b95;
+}
+.para{
+    padding: 10px,2ppx;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: blueviolet;
+
+}
+p1{
+    font-weight: bolder;
+    font-size: 1.5rem;
+    
+}
+p2{
+    font-weight: bold;
+    color: #6b5b95;
+    font-size: 1.5rem;
+}
+.image{
+    size: 1.5rem;
+}
